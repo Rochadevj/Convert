@@ -30,13 +30,13 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 3.12rem;
+  gap: 2.5rem; 
   color: #f1f2f6;
 }
 
 main {
-  width: 480px;
-  border-radius: 1.5rem;
+  width: 400px; 
+  border-radius: 1rem; 
   border: 1px solid #2f3279;
   overflow-y: hidden;
 }
@@ -45,15 +45,15 @@ form {
   background-color: #141534;
   display: flex;
   flex-direction: column;
-  padding: 3.5rem 4rem;
+  padding: 2.5rem 3rem; 
 }
 
 label {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   color: #b2b8de;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
-  margin-top: 1.25rem;
+  margin-top: 1rem; 
 }
 
 input,
@@ -63,9 +63,9 @@ select {
   border: 1px solid #1f2151;
   border-radius: 0.5rem;
   background-color: #0e0f25;
-  padding: 1.25rem 1rem;
+  padding: 1rem; 
   font-family: "Inter", sans-serif;
-  font-size: 1rem;
+  font-size: 0.95rem; 
 }
 
 select {
@@ -76,7 +76,6 @@ select {
   background-position: calc(100% - 0.75rem) center !important;
   background-color: #0e0f25;
   cursor: pointer;
-  font-size: 1rem;
 }
 
 input::placeholder,
@@ -91,17 +90,17 @@ select:focus {
 }
 
 button {
-  height: 3.25rem;
+  height: 2.75rem; 
   background-color: #2f34ab;
   border: none;
   border-radius: 0.5rem;
   color: #f1f2f6;
   font-family: "Inter", sans-serif;
-  font-size: 1rem;
+  font-size: 0.95rem; 
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.2s;
-  margin-top: 3rem;
+  margin-top: 2rem;
   outline: 0;
 }
 
@@ -115,8 +114,8 @@ button:focus {
 
 footer {
   background-color: #1f2151;
-  padding: 2.5rem;
-  max-height: 196px;
+  padding: 2rem; 
+  max-height: 160px; 
   text-align: center;
   display: none;
   overflow-y: scroll;
@@ -128,34 +127,35 @@ footer {
 
 footer span {
   color: #7d8dec;
-  font-size: 1rem;
+  font-size: 0.9rem; 
   font-family: "Lora", sans-serif;
   margin-bottom: 0.5rem;
-  line-height: 1.25rem;
+  line-height: 1.2rem;
 }
 
 footer h1 {
   color: #f1f2f6;
   font-weight: 700;
-  font-size: 2rem;
-  line-height: 3rem;
+  font-size: 1.5rem; 
+  line-height: 2rem;
   word-break: break-all;
 }
 
 #clock {
   font-family: "Lora", serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   background-color: #2f3279;
   color: #f1f2f6;
-  padding: 1.2rem 4rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 1rem 3rem; 
+  border-radius: 6px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
-#clock:hover{
-    background-color: #4a5dcd;  
+#clock:hover {
+  background-color: #4a5dcd;
 }
+
 
 @media (max-width: 480px) {
   body {
